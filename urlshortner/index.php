@@ -5,14 +5,13 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
         <?php
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
         // put your code here
-        echo "ehsan test";
+        include_once 'libs/core.php';
+        $core = new core();
+        $core->Main();
         ?>
-    </body>
 </html>
