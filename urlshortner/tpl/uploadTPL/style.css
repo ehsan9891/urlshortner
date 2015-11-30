@@ -16,3 +16,16 @@ tt{ display:block; font:12px monospace; background: #f6fdfd; padding: 15px; bord
 
 .color1{background:#eeeeff;}
 .color2{background:#ddddee;}
+
+/*    main css goes here     */
+#content{
+    height: 450px;
+}
+.lable{
+    width: 100px;
+    float: left;
+}
+
+.row{
+    margin-bottom: 10px;
+}

@@ -50,6 +50,7 @@ class core {
         switch ($url_type) {
             case 1:
                 $modules['uploader'] = $this->runModule($modulesBase . 'uploader/index.php');
+                
                 break;
             case 2:
                 break;
