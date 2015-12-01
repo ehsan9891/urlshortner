@@ -29,3 +29,7 @@ tt{ display:block; font:12px monospace; background: #f6fdfd; padding: 15px; bord
 .row{
     margin-bottom: 10px;
 }
+
+.error-frame{
+    border: 2px solid red;
+}
